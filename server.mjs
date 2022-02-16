@@ -31,7 +31,7 @@ app.post("/sendsms", (req, res) => {
   // TODO: ask dialogflow what to respond
 
   client.messages
-    .create({ body: "Hi there", from: "+18454157128", to: "+19177256735" })
+    .create({ body: "Hi there", from: "+18454157128", to: "+923478359046" })
     .then((message) => console.log(message.sid))
     .done();
 
